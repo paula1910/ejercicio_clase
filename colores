@@ -1,0 +1,23 @@
+function setup(){
+    console.log("setup");
+    
+   
+    createCanvas(200,200);
+    background(200);
+
+    
+}
+function draw(){
+    
+
+
+    if(mouseX<100){
+        fill(color ('yellow') );
+    }
+    if(mouseY<100)  {
+        
+    } else {fill(color ("green"))
+        
+    }
+    ellipse( 50, 50, 50, 50);
+}
